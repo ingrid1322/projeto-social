@@ -19,14 +19,11 @@ body {
 }
 
 main {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: right;
     align-items: center;
+    gap: 20px;
 }
 
 section#telefone {
@@ -52,8 +49,8 @@ section#telefone {
     }
 
     section#redes-sociais img {
-        width: 30px;
-        margin: 10px;
+        width: 50px;
+        margin: 20px;
         border-radius: 50%;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
         box-sizing: border-box;
