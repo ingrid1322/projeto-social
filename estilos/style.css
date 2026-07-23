@@ -45,15 +45,20 @@ section#telefone {
     }
 
     section#redes-sociais {
-        text-align: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 50px;
     }
 
     section#redes-sociais img {
         width: 50px;
-        margin: 20px;
+        height: 50px;
         border-radius: 50%;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
         box-sizing: border-box;
+        transition: transform 0.3s;
     }
 
     section#redes-sociais img:hover {
